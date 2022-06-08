@@ -11,45 +11,79 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid p-0">
-            <nav class="navbar navbar-expand-lg" style="background-color: lightblue;">
-                <div class="container">
-                    <a href=""><img src="" alt="" width="120px" height="90px" style="background-color: black;"></a>
-                    <p>Realiza tu pedido</p>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                        <span><i class="bi bi-chevron-double-down"></i></span>
+        <div id="top" class="container-fluid">
+            <span>
+                <i id="ig" class="bi bi-instagram"><a href="">decovsr</a></i>
+                <i id="loc" class="bi bi-geo-alt"><a href="">Quilmes, Buenos Aires</a></i>
+            </span>
+        </div>
+        <div id="navbar" class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg" style="background-color: white;">
+                <div class="container d-flex">
+                    <a class="logo" href="index.html">DECO<span>VSR</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+                            <span style="color: black;"><i class="bi bi-chevron-double-down"></i></span>
                     </button>
-                <div class="collapse navbar-collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav fw-bold" style="--bs-scroll-height: 100px;">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link text-white" href="" id="navbarScrollingDropdown">
-                        Productos
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link text-white" href="" id="navbarScrollingDropdown">
+                        <div class="collapse navbar-collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav mx-3 fw-bold" style="--bs-scroll-height: 100px;">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link"  href="" id="navbarScrollingDropdown">
+                                    Productos
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                        <a class="nav-link" href="" id="navbarScrollingDropdown">
                         Nosotros
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link text-white" href="" id="navbarScrollingDropdown">
+                        <a class="nav-link" href="" id="navbarScrollingDropdown">
                         Contacto
                         </a>
                     </li>
-                </ul>
-                <ul class="d-flex" >
-                <button class="btn btn-car btn-outline-light" type="submit">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="" id="navbarScrollingDropdown">
+                        Condiciones
+                        </a>
+                    </li>
+                    <li>
+                    <button class="btn btn-car btn-outline-dark" type="submit">
                     <i class="bi-cart-fill me-1"></i>
                     Carrito
-                    <span class="badge ms-1 rounded-pill">0</span>
-                </button>
-                </ul> 
+                    <span class="badge ms-1 rounded-pill" style="color: white">0</span>
+                    </button>
+                    </li>
+                </ul>
                 </div>
                 </div>
             </nav>
         </div>
     </header>
-    <main>
+    <main style="background-color: rgb(49, 142, 173);">
+        <div class="section m-0 py-2">
+        <h1 class="title m-0">Bienvenidxs a <u>DECOVSR</u></h1>
+        <p class="search m-0">buscar</p>
+        </div>
+        <section>
+            <p class="text-center fw-bold mb-2">Destacados</p>
+            <div id="destacados" class="row">
+                <div class="col-4">
+                    <img src="./img/WhatsApp Image 2022-06-03 at 6.12.14 PM (1).jpeg" alt="">
+                    <img src="./img/WhatsApp Image 2022-06-03 at 6.12.14 PM (2).jpeg" alt="">
+                    <img src="./img/WhatsApp Image 2022-06-03 at 6.12.14 PM.jpeg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="./img/WhatsApp Image 2022-06-03 at 6.12.15 PM (1).jpeg" alt="">
+                    <img src="./img/WhatsApp Image 2022-06-03 at 6.12.15 PM (1).jpeg" alt="">
+                    <img src="./img/WhatsApp Image 2022-06-03 at 6.12.15 PM.jpeg" alt="">
+                </div>
+                    <div class="col-4">
+                    <img src="./img/WhatsApp Image 2022-06-03 at 6.12.14 PM (1).jpeg" alt="">
+                    <img src="./img/WhatsApp Image 2022-06-03 at 6.12.14 PM (2).jpeg" alt="">
+                    <img src="./img/WhatsApp Image 2022-06-03 at 6.12.14 PM.jpeg" alt="">
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer>
