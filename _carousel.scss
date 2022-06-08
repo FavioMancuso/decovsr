@@ -1,0 +1,25 @@
+#carouselExampleFade {
+    width: 95%;
+    height: 80%;
+    margin: 0rem auto;
+
+    .carousel-item {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        img {
+            height: 450px;
+            width: 380px;
+            border-radius: 0.8rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        width: 5%;
+    }
+}
