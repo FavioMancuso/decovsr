@@ -156,6 +156,18 @@ main {
     }
 }
 
+#btn-wpp {
+    padding: .3rem .8rem;
+        color: white;
+        font-size: 2rem;
+        background-color: rgb(33, 189, 33);
+        position: fixed;
+        top: 89%;
+        right: 4%;
+        z-index: 100;
+    }
+
+
 @import "productos";
 
 @media only screen and (min-width: 992px) {
