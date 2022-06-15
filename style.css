@@ -169,19 +169,30 @@ main #section-info .container .info-slide .info-slide-title {
 }
 
 #btn-wpp {
-  padding: 0.3rem 0.8rem;
+  padding: 0.1rem 0.6rem;
   font-size: 2rem;
-  background-color: #4dc247;
   position: fixed;
   top: 89%;
   right: 4%;
-  border-radius: 50%;
   overflow: hidden;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
   text-align: center;
   line-height: 50px;
   color: white;
   background-color: #4dc247;
+}
+
+footer p {
+  margin-bottom: 0.65rem;
+}
+footer p .bi {
+  font-size: 1.2rem;
+  color: #6c757d;
+  background-color: rgb(3, 37, 48);
+}
+
+.border-bottom {
+  border-bottom: 2px solid rgb(3, 37, 48) !important;
 }
 
 header {
