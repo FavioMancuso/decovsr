@@ -90,7 +90,7 @@ header {
 }
 
 main {
-    height: 200vh;
+    height: auto;
     background-color: $color1;
     
     .section {
@@ -228,13 +228,19 @@ main {
         background-color: #4dc247;
     }
 
-footer p {
-    margin-bottom: 0.65rem;
+footer {
+    li {
+        font-size: 0.95rem;
+    }
     
-    .bi {
-        font-size: 1.2rem;
-        color: #6c757d;
-        background-color: $color1;
+    p {
+        margin-bottom: 0.65rem;
+    
+        .bi {
+            font-size: 1.2rem;
+            color: #6c757d;
+            background-color: $color1;
+        }
     }
 }
 

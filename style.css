@@ -71,7 +71,7 @@ header .container .btn-car:hover {
 }
 
 main {
-  height: 200vh;
+  height: auto;
   background-color: rgb(3, 37, 48);
 }
 main .section {
@@ -182,6 +182,9 @@ main #section-info .container .info-slide .info-slide-title {
   background-color: #4dc247;
 }
 
+footer li {
+  font-size: 0.95rem;
+}
 footer p {
   margin-bottom: 0.65rem;
 }
@@ -240,7 +243,7 @@ header .section-end a {
 
 main {
   height: auto;
-  padding-bottom: 10rem;
+  padding-bottom: 0rem;
 }
 main p {
   color: white;
@@ -258,14 +261,68 @@ main .row {
   margin: 0 auto;
   --bs-gutter-x: 0.16rem;
 }
+main .row .article {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+main .row .article figure {
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+  margin-bottom: 0.65rem;
+}
+main .row .article figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main .row .article figure .capa a {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+main .row .article figure .capa a i {
+  color: white !important;
+}
+main .row .article figure .capa h3 {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  transition: all 500ms ease-out;
+  margin-top: 2rem;
+}
+main .row .article figure .capa p {
+  color: white;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 16rem;
+  margin: 0rem auto;
+  font-weight: 100;
+}
+main .row .article figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
 main .row img {
   background-size: cover;
   background-position: center;
   width: 100%;
   height: auto;
   border-radius: 0.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 @media only screen and (min-width: 992px) {
