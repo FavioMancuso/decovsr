@@ -162,11 +162,7 @@ main {
 
     #ofertas {
         background-color: rgb(3, 37, 48);
-        margin-bottom: 2rem!important;
-        
-        p {
-        margin-top: 0.2rem!important;
-        }
+        margin-top: 0.5rem;
     }
 
     #categorias {
@@ -244,13 +240,14 @@ main {
                 }
 
                 p {
+                    margin-top: 0;
                     color: black;
                     font-weight: 400;
-                    font-size: .9rem;
+                    font-size: .8rem;
                 }
 
                 .info-slide-title {
-                    font-size: 1rem;
+                    font-size: .92rem;
                     font-weight: 700;
                     color: $color1;
                 }
